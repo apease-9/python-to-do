@@ -1,5 +1,4 @@
 from tkinter import * #imports everything
-import tkinter as tk
 
 class ToDoItem:
     def __init__(self, name, description):
@@ -19,7 +18,7 @@ class ToDo:
 
 
       self.to_do_items = [
-          ToDoItem("Meal Plan", "5 day lunch/dinner"),
+          ToDoItem("Housework", "Vaccuum, sweep, dishes"),
           ToDoItem("Workout", "Push ups, pull ups, squats"),
           ToDoItem("Groceries", "Flour, Sugar, eggs")
       ]
